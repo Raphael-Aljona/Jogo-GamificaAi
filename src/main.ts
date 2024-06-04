@@ -1,5 +1,7 @@
-import { Engine } from "excalibur";
+import { Engine, FadeInOut } from "excalibur";
 import { welcomeScene } from "./scenes/welcomeScene";
+import { loader } from "./resources";
+import { historyScene } from "./scenes/historyScene";
 
 const game = new Engine({
     height: 800,
@@ -9,6 +11,10 @@ const game = new Engine({
 
 game.addScene("bemvindo", new welcomeScene())
 
-game.start().then(() => {
-    game.goToScene("bemvindo")
+game.addScene("historia", new historyScene())
+
+game.start(loader).then(() => {
+    game.goToScene("bemvindo", {
+        sourceOut: new FadeInOut ({duration: 1000})
+    })
 })
