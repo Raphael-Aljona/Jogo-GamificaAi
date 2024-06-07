@@ -1,0 +1,37 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "showroom_map.tmx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "showroom_map.tmx": {
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 595,
+                "y": 146.5
+            }
+        },
+        "tileset_paredes.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Users/53789144851/Desktop/Portfólio-Gamificaai/src/maps",
+    "map.lastUsedFormat": "tmx",
+    "map.width": 29,
+    "openFiles": [
+        "showroom_map.tmx",
+        "tileset_paredes.tsx"
+    ],
+    "project": "sem título.tiled-project",
+    "recentFiles": [
+        "tileset_paredes.tsx",
+        "showroom_map.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}
