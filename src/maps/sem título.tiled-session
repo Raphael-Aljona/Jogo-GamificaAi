@@ -8,16 +8,29 @@
     ],
     "fileStates": {
         "showroom_map.tmx": {
-            "scale": 1,
-            "selectedLayer": 2,
+            "scale": 1.5,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 595,
-                "y": 146.5
+                "x": 804,
+                "y": 510.33333333333337
             }
+        },
+        "tileset_biblioteca.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tileset_estoque.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "tileset_generic.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
         },
         "tileset_paredes.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 1.5,
+            "scaleInDock": 0.25,
             "scaleInEditor": 1
         }
     },
@@ -26,12 +39,17 @@
     "map.width": 29,
     "openFiles": [
         "showroom_map.tmx",
-        "tileset_paredes.tsx"
+        "tileset_generic.tsx",
+        "tileset_estoque.tsx",
+        "tileset_biblioteca.tsx"
     ],
     "project": "sem título.tiled-project",
     "recentFiles": [
-        "tileset_paredes.tsx",
-        "showroom_map.tmx"
+        "tileset_biblioteca.tsx",
+        "tileset_estoque.tsx",
+        "tileset_generic.tsx",
+        "showroom_map.tmx",
+        "tileset_paredes.tsx"
     ],
     "tileset.lastUsedFormat": "tsx"
 }
