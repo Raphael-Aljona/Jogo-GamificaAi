@@ -1,4 +1,4 @@
-import { ImageSource, Loader } from "excalibur";
+import { ImageFiltering, ImageSource, Loader } from "excalibur";
 import logo from "./images/logo.png"
 import logovertical from "./images/logoV.png"
 import bgGamificacao from "./images/gamificacao.png"
@@ -12,8 +12,11 @@ import tsxBibliotecaPath from "./maps/tileset_biblioteca.tsx?url"
 
 import tmxMapaPath from "./maps/showroom_map.tmx?url"
 
+import playerSpritePath from "./sprites/Player.png"
+
 export const Resources = {
   Logo: new ImageSource (logo),
+  PlayerSpriteSheet: new ImageSource (playerSpritePath, {filtering: ImageFiltering.Pixel}),
   LogoV: new ImageSource (logovertical),
   bgGamificacao: new ImageSource (bgGamificacao),
   Mapa: new TiledResource (tmxMapaPath, {
