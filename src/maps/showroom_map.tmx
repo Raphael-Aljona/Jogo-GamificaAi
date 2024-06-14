@@ -139,22 +139,22 @@
 </data>
  </layer>
  <objectgroup id="13" name="ObjetosColisores">
-  <object id="7" name="mesa_stand_a" x="201.542" y="244.289" width="76.5" height="43.9108" rotation="359.716"/>
-  <object id="9" name="mesa_stand_b" x="425.636" y="244.114" width="76.3636" height="44.7045"/>
-  <object id="10" name="mesa_stand_c" x="649.909" y="243.727" width="76.0909" height="44.7727"/>
+  <object id="7" name="mesa_stand_a" x="201.542" y="244.289" width="76.5" height="38.4208" rotation="359.716"/>
+  <object id="9" name="mesa_stand_b" x="425.636" y="244.114" width="76.3636" height="37.2045"/>
+  <object id="10" name="mesa_stand_c" x="649.909" y="243.727" width="76.0909" height="38.2727"/>
   <object id="11" name="mesa_bibliotecaria" x="407" y="357.667" width="25.3333" height="68.6667"/>
   <object id="12" name="mesa_bibliotecaria" x="497.333" y="357.333" width="25.3333" height="69.3333"/>
-  <object id="13" name="mesa_bibliotecaria" x="407" y="390" width="114.333" height="45.5"/>
+  <object id="13" name="mesa_bibliotecaria" x="407" y="390" width="114.333" height="37"/>
   <object id="14" name="bibliotecaria" x="447.818" y="358.114" width="32" height="29.9773"/>
-  <object id="15" name="sofa" x="210.75" y="348.5" width="44.7083" height="75.5"/>
-  <object id="16" name="mesa_sinuca" x="653.625" y="319.542" width="67.75" height="96.5833"/>
-  <object id="17" name="fliperama_b" x="704.667" y="82.3333" width="62" height="79.3333"/>
-  <object id="19" name="fliperama_a" x="159.667" y="82.3333" width="63.3333" height="80.6818"/>
-  <object id="20" name="planta_a" x="95.6667" y="99.3333" width="31.3333" height="54.6667"/>
-  <object id="21" name="planta_b" x="801.667" y="99.6667" width="28.6667" height="55"/>
-  <object id="22" name="tacos_sinuca" x="771.667" y="91.3333" width="26.6667" height="74.3333"/>
-  <object id="23" name="painel_tv" x="100.727" y="356.03" width="21.1818" height="60.947"/>
-  <object id="24" name="gavetas_stand" x="416.364" y="103.636" width="95.4545" height="58.3636"/>
+  <object id="15" name="sofa" x="210.75" y="348.5" width="44.7083" height="66"/>
+  <object id="16" name="mesa_sinuca" x="653.625" y="319.542" width="67.75" height="89.0833"/>
+  <object id="17" name="fliperama_b" x="704.667" y="82.3333" width="62" height="68.8333"/>
+  <object id="19" name="fliperama_a" x="159.667" y="82.3333" width="63.3333" height="69.6818"/>
+  <object id="20" name="planta_a" x="95.6667" y="99.3333" width="31.3333" height="47.1667"/>
+  <object id="21" name="planta_b" x="801.667" y="99.6667" width="28.6667" height="47.5"/>
+  <object id="22" name="tacos_sinuca" x="771.667" y="91.3333" width="26.6667" height="67.3333"/>
+  <object id="23" name="painel_tv" x="100.727" y="356.03" width="21.1818" height="53.447"/>
+  <object id="24" name="gavetas_stand" x="416.364" y="103.636" width="95.4545" height="48.8636"/>
  </objectgroup>
  <layer id="9" name="MaisAcimaMoveis" width="29" height="20">
   <data encoding="csv">

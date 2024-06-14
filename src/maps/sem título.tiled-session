@@ -8,11 +8,11 @@
     ],
     "fileStates": {
         "showroom_map.tmx": {
-            "scale": 1,
-            "selectedLayer": 2,
+            "scale": 2,
+            "selectedLayer": 6,
             "viewCenter": {
-                "x": 406,
-                "y": 284.5
+                "x": 252,
+                "y": 426.25
             }
         },
         "tileset_biblioteca.tsx": {
