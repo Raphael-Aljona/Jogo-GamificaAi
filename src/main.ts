@@ -4,6 +4,7 @@ import { loader } from "./resources";
 import { historyScene } from "./scenes/historyScene";
 import { gamificationScene } from "./scenes/gamificationScene";
 import { expoScene } from "./scenes/expoScene";
+import { caseScene } from "./scenes/caseScene";
 
 const game = new Engine({
     height: 800,
@@ -21,8 +22,10 @@ game.addScene("gamificacao", new gamificationScene())
 
 game.addScene("exposicao", new expoScene)
 
+game.addScene("case", new caseScene)
+
 game.start(loader).then(() => {
-    game.goToScene("exposicao", {
+    game.goToScene("historia", {
         sourceOut: new FadeInOut ({duration: 1000})
     })
 })

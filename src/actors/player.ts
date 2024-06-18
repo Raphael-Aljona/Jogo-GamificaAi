@@ -278,6 +278,43 @@ export class Player extends Actor {
             }
         })
 
+        // Configura o player para monitorar evento "pressionar"
+        engine.input.keyboard.on ("press", (event) => {
+            if (event.key == Keys.F && this.temObjetoProximo) {
+                // Identificar o alvo da interação
+                    if (this.ultimoColisor?.owner.name == "mesa_stand_a"){
+                        console.log("essa é a mesa A")
+
+                        engine.goToScene("case", {
+                            sceneActivationData: {
+                                nomeDoActor: this.ultimoColisor?.owner.name
+                            }
+                        })
+                    }
+                    if (this.ultimoColisor?.owner.name == "mesa_stand_b"){
+                        console.log("essa é a mesa B")
+
+                        engine.goToScene("case", {
+                            sceneActivationData: {
+                                nomeDoActor: this.ultimoColisor?.owner.name
+                            }
+                        })
+                    }
+                    if (this.ultimoColisor?.owner.name == "mesa_stand_c"){
+                        console.log("essa é a mesa C")
+
+                        engine.goToScene("case", {
+                            sceneActivationData: {
+                                nomeDoActor: this.ultimoColisor?.owner.name
+                            }
+                        })
+                    }
+
+
+
+            }
+        })
+
     }
 
     onPreCollisionResolve(self: Collider, other: Collider, side: Side, contact: CollisionContact): void {
