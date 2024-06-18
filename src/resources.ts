@@ -1,7 +1,14 @@
-import { ImageFiltering, ImageSource, Loader } from "excalibur";
+import { ImageFiltering, ImageSource, Loader, Sound } from "excalibur";
 import logo from "./images/logo.png"
 import logovertical from "./images/logoV.png"
 import bgGamificacao from "./images/gamificacao.png"
+import aprender from "./images/aprender.png"
+import reciclagem from "./images/reciclagem.png"
+import comida from "./images/comida.png"
+
+// Audio
+import ritmadaBGM from "./sounds/ritmada_zelda.mp3"
+
 import { TiledResource } from "@excaliburjs/plugin-tiled";
 
 import pngTilesetPath from "./maps/Room_Builder_32x32.png?url"
@@ -9,6 +16,7 @@ import tsxParedesPath from "./maps/tileset_paredes.tsx?url"
 import tsxGenericPath from "./maps/tileset_generic.tsx?url"
 import tsxEstoquePath from "./maps/tileset_estoque.tsx?url"
 import tsxBibliotecaPath from "./maps/tileset_biblioteca.tsx?url"
+
 
 import tmxMapaPath from "./maps/showroom_map.tmx?url"
 
@@ -19,6 +27,11 @@ export const Resources = {
   PlayerSpriteSheet: new ImageSource (playerSpritePath, {filtering: ImageFiltering.Pixel}),
   LogoV: new ImageSource (logovertical),
   bgGamificacao: new ImageSource (bgGamificacao),
+  Aprender: new ImageSource (aprender),
+  Reciclagem: new ImageSource (reciclagem),
+  Comida: new ImageSource (comida),
+  musicaBGM: new Sound(ritmadaBGM),
+
   Mapa: new TiledResource (tmxMapaPath, {
     pathMap: [
       { path: "showroom_map.tmx", output: tmxMapaPath },
@@ -28,7 +41,7 @@ export const Resources = {
       {path: "tileset_estoque.tsx", output: tsxEstoquePath},
       {path: "tileset_biblioteca.tsx", output: tsxBibliotecaPath},
     ]
-  })
+  }),
 } as const;
 
 export const loader = new Loader();

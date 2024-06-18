@@ -12,9 +12,18 @@ export class expoScene extends Scene {
         })
     }
 
+    
+
     onInitialize(engine: Engine<any>): void {
         //Carregar o mapa
         let tiledMap = Resources.Mapa
+
+        // Carregar musica de fundo (BGM)
+        let musicaFundo = Resources.musicaBGM
+
+        // Configurar e excutar musica
+        musicaFundo.loop = true
+        musicaFundo.play(0.5)
 
         // Definir offset para renderizar certo o mapa
         let offsetX = 138

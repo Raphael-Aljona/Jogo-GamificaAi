@@ -11,8 +11,8 @@
             "scale": 2,
             "selectedLayer": 6,
             "viewCenter": {
-                "x": 252,
-                "y": 426.25
+                "x": 539.5,
+                "y": 345.25
             }
         },
         "tileset_biblioteca.tsx": {
@@ -25,12 +25,12 @@
         },
         "tileset_generic.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 0.5,
+            "scaleInDock": 0.33,
             "scaleInEditor": 1
         },
         "tileset_paredes.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 1.5,
+            "scaleInDock": 0.125,
             "scaleInEditor": 1
         }
     },

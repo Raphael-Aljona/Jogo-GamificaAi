@@ -20,12 +20,12 @@ game.addScene("historia", new historyScene())
 
 game.addScene("gamificacao", new gamificationScene())
 
-game.addScene("exposicao", new expoScene)
+game.addScene("exposicao", new expoScene())
 
-game.addScene("case", new caseScene)
+game.addScene("case", new caseScene())
 
 game.start(loader).then(() => {
-    game.goToScene("historia", {
+    game.goToScene("exposicao", {
         sourceOut: new FadeInOut ({duration: 1000})
     })
 })
