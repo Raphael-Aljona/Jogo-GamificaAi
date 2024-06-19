@@ -21,15 +21,24 @@ import tsxBibliotecaPath from "./maps/tileset_biblioteca.tsx?url"
 import tmxMapaPath from "./maps/showroom_map.tmx?url"
 
 import playerSpritePath from "./sprites/Player.png"
+import npcASpritePath from "./sprites/npcA.png"
+import npcBSpritePath from "./sprites/npcB.png"
+import npcCSpritepath from "./sprites/npcC.png"
 
 export const Resources = {
   Logo: new ImageSource (logo),
-  PlayerSpriteSheet: new ImageSource (playerSpritePath, {filtering: ImageFiltering.Pixel}),
   LogoV: new ImageSource (logovertical),
   bgGamificacao: new ImageSource (bgGamificacao),
+
   Aprender: new ImageSource (aprender),
   Reciclagem: new ImageSource (reciclagem),
   Comida: new ImageSource (comida),
+
+  PlayerSpriteSheet: new ImageSource (playerSpritePath, {filtering: ImageFiltering.Pixel}),
+  npcASpriteSheet: new ImageSource (npcASpritePath, {filtering:ImageFiltering.Pixel} ),
+  npcBSpriteSheet: new ImageSource (npcBSpritePath, {filtering:ImageFiltering.Pixel} ),
+  npcCSpriteSheet: new ImageSource (npcCSpritepath, {filtering:ImageFiltering.Pixel} ),
+
   musicaBGM: new Sound(ritmadaBGM),
 
   Mapa: new TiledResource (tmxMapaPath, {

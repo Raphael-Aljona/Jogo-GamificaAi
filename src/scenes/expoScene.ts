@@ -60,19 +60,19 @@ export class expoScene extends Scene {
         let npcA = new Npc (
             vec(npcSpawnpointA.x + offsetX, npcSpawnpointA.y + offsetY),
             Color.Blue,
-            "NpcA"
+            "npcA"
             )
  
         let npcB = new Npc (
             vec(npcSpawnpointB.x + offsetX, npcSpawnpointB.y + offsetY),
             Color.Green,
-            "NpcB"
+            "npcB"
             )
         
         let npcC = new Npc (
             vec(npcSpawnpointC.x + offsetX, npcSpawnpointC.y + offsetY),
             Color.Yellow,
-            "NpcC"
+            "npcC"
             )
 
         this.add(npcA)

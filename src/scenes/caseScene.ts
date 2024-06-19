@@ -43,7 +43,7 @@ export class caseScene extends Scene {
         this.backgroundColor = Color.Gray
 
         this.input.keyboard.on("press", (event) => {
-            // Caso a tecla pressionada for Enter, deve ir para a próxima cena
+            // Caso a tecla pressionada for Esc, ele volta para cena anterior
             if (event.key == Keys.Esc) {
                 this.fadeOutElement(this.elementoTexto!)
 
